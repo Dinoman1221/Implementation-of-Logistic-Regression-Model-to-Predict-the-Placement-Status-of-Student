@@ -18,9 +18,8 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Ashish S
+RegisterNumber:  24900566
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
 print(data.head())
@@ -61,9 +60,12 @@ from sklearn.metrics import classification_report
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+*/
+```
 
 ## Output:
-https://github.com/user-attachments/assets/4ab4235e-cb07-4d09-80eb-91a519acac4c
+![Screenshot 2024-11-22 093017](https://github.com/user-attachments/assets/569f3a1f-7e59-4f8c-a600-6725a1996368)
+
 
 
 
